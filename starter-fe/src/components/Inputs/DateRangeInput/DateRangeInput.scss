@@ -1,0 +1,20 @@
+@import "../../../assets/styles/Variables";
+
+.date-range-input {
+  &__inputs {
+    display: flex;
+
+    &--vertical {
+      flex-direction: column;
+
+      .common-input:first-child {
+        margin-bottom: $margin;
+      }
+    }
+
+    .common-input {
+      padding: 0;
+      margin-right: $margin;
+    }
+  }
+}
